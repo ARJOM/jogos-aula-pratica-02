@@ -8,11 +8,11 @@ width, height = 800, 600
 screen = pygame.display.set_mode((width, height), FULLSCREEN)
 pygame.display.set_caption("Movimentação com Pygame")
 
-image_bg = 'closet.png'
-mouse = 'gloss.png'
+image_bg = 'assets/closet.png'
+mouse = 'assets/gloss.png'
 
 token = pygame.image.load(mouse).convert_alpha()
-token = pygame.transform.scale(token, (20, 20))
+token = pygame.transform.scale(token, (300, 400))
 closet = pygame.image.load(image_bg).convert()
 closet = pygame.transform.scale(closet, (width, height))
 is_fullscreen = False
