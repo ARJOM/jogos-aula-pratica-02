@@ -12,4 +12,4 @@ Desenvolva uma interface simples. O programa deve movimentar uma imagem através
 1. O programa executa sem erros
 2. O usuário é capaz de movimentar a imagem através do teclado
 3. O usuário é capaz de entrar e sair do modo tela cheia
-4. As imagens foram adicionadas como se pede
+4. As imagens foram adicionadas como se pede 
