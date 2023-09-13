@@ -7,14 +7,14 @@ pygame.init()
 
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("nave space")
+pygame.display.set_caption("Naruto Game")
 
-bg = 'space.webp'
+bg = 'bg.jpg'
 bg1 = pygame.image.load(bg).convert()
 bg1 = pygame.transform.scale(bg1, (800, 600))
 
-nave = 'nave.png'
-token = pygame.image.load(nave)
+naruto = 'OIP.png'
+token = pygame.image.load(naruto)
 token = pygame.transform.scale(token, (160, 160))
 
 is_fullscreen = False
