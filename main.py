@@ -8,8 +8,8 @@ larg, altu = 800, 600
 screen = pygame.display.set_mode((larg, altu), FULLSCREEN)
 pygame.display.set_caption("Movimentação com Pygame")
 
-mouse = 'cursor_swordman.png'
-image_bg = 'image_background.jpg'
+mouse = 'assets/cursor_swordman.png'
+image_bg = 'assets/image_background.jpg'
 
 token = pygame.image.load(mouse).convert_alpha()
 token = pygame.transform.scale(token, (50, 50))
