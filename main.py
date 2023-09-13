@@ -8,8 +8,8 @@ width, height = 800, 600
 screen = pygame.display.set_mode((width, height), FULLSCREEN)
 pygame.display.set_caption("Movimentação com Pygame")
 
-mouse = 'bola.webp'
-imagembg = 'goku.webp'
+mouse = 'assets/bola.webp'
+imagembg = 'assets/goku.webp'
 token = pygame.image.load(mouse).convert_alpha()
 token = pygame.transform.scale(token, (40, 40))
 backgroud = pygame.image.load(imagembg).convert_alpha()
