@@ -8,8 +8,8 @@ width, height = 800, 600
 screen = pygame.display.set_mode((width, height), FULLSCREEN)
 pygame.display.set_caption("Movimentação com Pygame")
 
-imagembg = 'rick.webp'
-mouse = 'mouserick.jpeg'
+imagembg = 'assets/rick.webp'
+mouse = 'assets/mouserick.jpeg'
 token = pygame.image.load(mouse).convert_alpha()
 token = pygame.transform.scale(token, (40, 40))
 backgroud = pygame.image.load(imagembg).convert_alpha()
