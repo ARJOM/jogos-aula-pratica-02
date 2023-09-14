@@ -19,7 +19,7 @@ tela = pygame.transform.scale(tela, (largura, altura))
 white = (255, 255, 255)
 blue = (0, 0, 255)
 tc_screen = False
-x, y = larg // 2, altu // 2
+x, y = largura // 2, altura // 2
 speed = 0.5
 
 if __name__ == "__main__":
