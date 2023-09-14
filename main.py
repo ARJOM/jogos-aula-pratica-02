@@ -14,7 +14,7 @@ background = 'assets/desktop-wallpaper-steam-community-8-bit-purple-sunset-eight
 token = pygame.image.load(player).convert_alpha()
 token = pygame.transform.scale(token, (50, 50))
 tela = pygame.image.load(background).convert_alpha()
-tela = pygame.transform.scale(background, (largura, altura))
+tela = pygame.transform.scale(tela, (largura, altura))
 
 white = (255, 255, 255)
 blue = (0, 0, 255)
