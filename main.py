@@ -6,7 +6,7 @@ pygame.init()
 
 largura, altura = 800, 600
 screen = pygame.display.set_mode((largura, altura), FULLSCREEN)
-pygame.display.set_caption("Movimentação com Pygame")
+pygame.display.set_caption("Aula-Pratica-Jogos-Digitais")
 
 player = 'assets/luffytaro.png'
 background = 'assets/desktop-wallpaper-steam-community-8-bit-purple-sunset-eight-bit-sunset.jpg'
