@@ -4,7 +4,7 @@ import sys
 
 pygame.init()
 
-imagem_bg = 'taylor.png'
+imagem_bg = 'taylor.jpeg'
 
 width, height = 800, 600
 screen = pygame.display.set_mode((width, height))
@@ -13,7 +13,7 @@ pygame.display.set_caption("atividade")
 background = pygame.image.load(imagem_bg).convert()
 background = pygame.transform.scale(background,(800,600))
 
-tokenf = 'mirror_ball.png'
+tokenf = 'mirror_ball.jpeg'
 token = pygame.image.load(tokenf).convert_alpha()
 token = pygame.transform.scale(token, (100, 100))
 
